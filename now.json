@@ -1,4 +1,4 @@
-cd{
+{
     "builds":[
         {
             "src":"index.js",
