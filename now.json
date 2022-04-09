@@ -1,0 +1,19 @@
+cd{
+    "builds":[
+        {
+            "src":"index.js",
+            "use":"@now/node"
+        }
+    ],
+    "routes":[
+        {
+            "headers":{
+                "Access-Control-Allow-Origin":"*",
+                "Access-Control-Allow-Headers":"*",
+                "Access-Control-Allow-Methods":"OPTIONES,GET,PUT,DELETE, POST"
+            },
+            "src":"/.*",
+            "dest":"/index.js"
+        }
+    ]
+}
